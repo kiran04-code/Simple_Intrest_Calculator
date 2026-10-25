@@ -43,8 +43,20 @@ as the principal.
 4. Apply the simple interest formula.
 5. Add the interest to the principal to obtain the total amount.
 
+## Run the Calculator
+
+With Bash and `awk` installed, run this command from the repository root:
+
+```bash
+bash simple-interest.sh
+```
+
+Enter the principal amount, annual interest rate as a percentage, and time period
+in years when prompted. Use non-negative whole numbers or decimals, such as
+`1000`, `5`, and `0.5`. The script asks again if an input is invalid and displays
+the simple interest and total amount rounded to two decimal places.
+
 ## Project Contents
 
+- [`simple-interest.sh`](../simple-interest.sh): Interactive Bash calculator.
 - `README.md`: Calculator description, inputs, formulas, and a worked example.
-
-This repository currently contains documentation only.
